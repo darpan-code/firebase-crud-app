@@ -5,7 +5,7 @@ import Form from "../components/Form";
 const LocalDataContext = createContext();
 
 const HomePage = () => {
-  const [localData, setLocalData] = useState([{ id: "", name: "", roll: "" }]);
+  const [localData, setLocalData] = useState([]);
   return (
     <>
       <LocalDataContext.Provider value={{ localData, setLocalData }}>
